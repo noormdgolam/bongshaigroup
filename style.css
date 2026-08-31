@@ -503,6 +503,9 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
     transition: var(--transition);
     box-shadow: var(--shadow-sm);
 }
@@ -650,6 +653,9 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition);
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 .news-card:hover {
