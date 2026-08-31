@@ -1,0 +1,28 @@
+name: 🚀 Deploy Bongshai Group Website to cPanel
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: 📤 Sync Files to cPanel via FTP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🚀 FTP Deploy to Server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER || 'ftp.bongshaixpress.com' }}
+          username: ${{ secrets.FTP_USERNAME || 'aaa@bongshaihousing.com' }}
+          password: ${{ secrets.FTP_PASSWORD || '@No.hacking_9361#' }}
+          port: 21
+          protocol: ftp
+          dangerous-clean-slate: false
