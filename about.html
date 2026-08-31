@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bongshai Group | Building the Future Across Industries</title>
-    <meta name="description" content="Bongshai Group is a leading multinational conglomerate with subsidiaries in steel, housing, engineering, logistics, and philanthropy. Discover our diverse portfolio and commitment to excellence.">
-    <meta name="author" content="Bongshai Group Communications">
+    <title>About Us | Bongshai Group Corporate Heritage & Leadership</title>
+    <meta name="description" content="Learn about Bongshai Group's history, corporate leadership, core values, and engineering standards. Founded in 2008 in Dhaka by CEO & Chief Engineer S. M. Awal.">
+    <meta name="author" content="Bongshai Group Corporate Communications">
+    <meta name="robots" content="index, follow">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@500;700;900&display=swap" rel="stylesheet">
-    <!-- FontAwesome for Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- FAQ Schema -->
@@ -18,53 +19,44 @@
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "What is Bongshai Group?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Bongshai Group is a leading conglomerate (bongshai.com) managing diverse industries including e-commerce, steel manufacturing, real estate, engineering, and philanthropic efforts."
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the background and history of Bongshai Group?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bongshai Group was founded in 2008 in Dhaka, Bangladesh, by CEO and Chief Engineer S. M. Awal. It has expanded from an engineering firm into a premier conglomerate spanning EPC&C contracting, steel fabrication, real estate, e-commerce, and community philanthropy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the core values of Bongshai Group?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bongshai Group operates upon four core pillars: Engineering Integrity, Industrial Innovation, Environmental & Structural Safety, and Sustainable Socio-Economic Development."
+          }
         }
-      }, {
-        "@type": "Question",
-        "name": "What companies are under the Bongshai Group umbrella?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our primary subsidiaries are Bongshai Express, Bongshai Steel, Bongshai Housing, Bongshai Engineering, and the Bongshai Foundation."
-        }
-      }]
+      ]
     }
     </script>
 </head>
 <body>
-    <div class="ambient-glow"></div>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="preloader-logo">Bongshai <span class="highlight">Group</span></div>
-        <div class="preloader-loader"></div>
-    </div>
 
-    <!-- Custom cursor removed for performance -->
-    <div class="scroll-progress"></div>
-    <div class="bg-animated">
-        <!-- Vanta removed for performance -->
-        <div class="bg-grid"></div>
-        <div class="glow-orb orb-1"></div>
-        <div class="glow-orb orb-2"></div>
-    </div>
-
-    <header class="navbar">
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="index.html" class="brand-logo">
+                <div class="logo-symbol">B</div>
                 <span class="logo-text">Bongshai <span class="highlight">Group</span></span>
             </a>
-            <nav class="nav-links">
-                <a href="about.html">About</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About Us</a>
                 <a href="companies.html">Our Companies</a>
-                <a href="#impact">Our Impact</a>
-                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn btn-primary btn-sm" data-mcp-action="request-consultation">Request RFP</a>
             </nav>
-            <div class="mobile-menu-toggle">
+            <div class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -74,92 +66,165 @@
         <!-- Page Header -->
         <section class="page-header">
             <div class="container">
-                <h1 class="page-title">About Us</h1>
-                <p class="page-subtitle">Building the future across industries.</p>
+                <div class="badge-pill" style="margin-bottom: 1rem;"><i class="fas fa-building"></i> Corporate Profile</div>
+                <h1>About Bongshai Group</h1>
+                <p>Engineering progress, driving industrial self-reliance, and building sustainable infrastructure for over 15 years.</p>
             </div>
         </section>
 
-        <section id="about" class="section">
+        <!-- AEO Answer-First Section -->
+        <section class="section" style="padding-top: 3.5rem;">
             <div class="container">
-                <div class="section-header">
-                    <h2>What is the vision of Bongshai Group?</h2>
-                    <div class="section-divider"></div>
-                </div>
-                <div class="about-content grid-2">
-                    <div class="about-text">
-                        <h3>Driving Progress Through EPC&C Excellence</h3>
-                        <p>Established in 2008 in Dhaka, Bangladesh, Bongshai Group's vision is to be the cornerstone of infrastructural development. From complex civil engineering and high-rise construction to premium real estate and pre-engineered steel buildings (PEB), we deliver holistic, world-class solutions.</p>
-                        <ul class="feature-list">
-                            <li><i class="fas fa-hard-hat"></i> Premier EPC&C Contracting</li>
-                            <li><i class="fas fa-industry"></i> Pre-Engineered Steel Buildings (PEB)</li>
-                            <li><i class="fas fa-certificate"></i> BNBC 2020 & AISC 360 Compliant</li>
-                        </ul>
+                <div class="grid-2">
+                    <div>
+                        <div class="badge-pill" style="margin-bottom: 1rem;"><i class="fas fa-landmark"></i> Corporate Heritage</div>
+                        <h2>What is the story and mission behind Bongshai Group?</h2>
+                        <div class="section-divider"></div>
+                        
+                        <p class="aeo-answer-first" style="margin-top: 1.5rem;">
+                            <strong>Founded in 2008 by Engineer S. M. Awal, Bongshai Group (bongshai.com) is an engineering-driven conglomerate</strong> committed to constructing resilient mega-structures, manufacturing certified steel systems, and fostering national socio-economic prosperity.
+                        </p>
+                        
+                        <p style="color: var(--text-muted); margin-bottom: 1rem;">
+                            From our headquarters in Uttara, Dhaka, we manage multi-million-dollar EPC&C contracts, large-scale industrial factory sheds, and premium residential projects. Our integrated supply chains ensure seamless material availability, zero compromise on quality, and strict adherence to BNBC and ISO standards.
+                        </p>
                     </div>
-                    <div class="about-image glass-panel" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
-                        <img src="assets/bongshai_hq.png" alt="Bongshai Group Global Headquarters" class="hq-image">
+                    <div>
+                        <div style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-light); box-shadow: var(--shadow-lg);">
+                            <img src="assets/bongshai_hq.png" alt="Bongshai Group Global Headquarters" style="width: 100%; height: auto;">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Core Corporate Pillars -->
+        <section class="section bg-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="badge-pill" style="margin-bottom: 0.75rem;"><i class="fas fa-gem"></i> Guiding Principles</div>
+                    <h2>What values guide Bongshai Group's corporate decisions?</h2>
+                    <p>Our foundation rests on uncompromising technical precision, safety, and accountability.</p>
+                    <div class="section-divider center"></div>
+                </div>
 
+                <div class="grid-4">
+                    <div style="background: var(--bg-card); padding: 2rem; border-radius: var(--radius-md); border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);">
+                        <div style="width: 50px; height: 50px; background: rgba(197, 155, 39, 0.1); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; color: var(--secondary-dark); font-size: 1.3rem; margin-bottom: 1.25rem;">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Engineering Rigor</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">Adherence to international structural codes (AISC 360, BNBC 2020) and continuous R&D.</p>
+                    </div>
+
+                    <div style="background: var(--bg-card); padding: 2rem; border-radius: var(--radius-md); border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);">
+                        <div style="width: 50px; height: 50px; background: rgba(16, 185, 129, 0.1); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 1.3rem; margin-bottom: 1.25rem;">
+                            <i class="fas fa-shield-halved"></i>
+                        </div>
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Zero-Compromise Safety</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">ISO 9001:2015 verified quality assurance and strict site safety management.</p>
+                    </div>
+
+                    <div style="background: var(--bg-card); padding: 2rem; border-radius: var(--radius-md); border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);">
+                        <div style="width: 50px; height: 50px; background: rgba(37, 99, 235, 0.1); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; color: var(--accent-blue); font-size: 1.3rem; margin-bottom: 1.25rem;">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Supply Chain Synergy</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">In-house steel fabrication, logistics, and real estate execution eliminating delays.</p>
+                    </div>
+
+                    <div style="background: var(--bg-card); padding: 2rem; border-radius: var(--radius-md); border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);">
+                        <div style="width: 50px; height: 50px; background: rgba(239, 68, 68, 0.1); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; color: #ef4444; font-size: 1.3rem; margin-bottom: 1.25rem;">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Social Responsibility</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">Reinvesting corporate capital into community education, healthcare, and welfare.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Executive Leadership -->
+        <section class="section">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="leadership-card">
+                        <div class="badge-pill"><i class="fas fa-user-tie"></i> Chief Executive</div>
+                        <h3 style="font-size: 2rem; margin-top: 1rem;">Engr. S. M. Awal</h3>
+                        <p class="leadership-role">Chief Executive Officer & Chief Structural Engineer</p>
+                        <p class="leadership-quote">
+                            "Infrastructure is not just concrete and steel; it is the physical framework that allows society and commerce to thrive."
+                        </p>
+                        <p style="color: var(--text-muted); font-size: 0.95rem;">
+                            Engineer S. M. Awal founded Bongshai Group with the conviction that domestic engineering firms can execute world-standard mega projects. Under his leadership, the group has expanded to over 500 successfully delivered installations across Bangladesh.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>How does corporate governance ensure quality at Bongshai Group?</h2>
+                        <div class="section-divider"></div>
+                        <p style="margin-top: 1.5rem; color: var(--text-muted); font-size: 1.05rem;">
+                            Every subsidiary company maintains an independent technical committee adhering to central Group quality benchmarks.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-award"></i> <strong>Certified Materials:</strong> We source only tested structural steel and high-durability aggregates.</li>
+                            <li><i class="fas fa-microchip"></i> <strong>Modern BIM & Structural Modeling:</strong> Advanced finite element structural simulations prior to breaking ground.</li>
+                            <li><i class="fas fa-clipboard-check"></i> <strong>Third-Party Quality Verification:</strong> Regular testing through accredited national engineering laboratories.</li>
+                        </ul>
+                        <a href="companies.html" class="btn btn-primary" style="margin-top: 1rem;">Explore Our 5 Subsidiaries</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
                     <h2>Bongshai <span class="highlight">Group</span></h2>
-                    <p>Building the future across industries. Excellence in every endeavor.</p>
+                    <p>A premier diversified conglomerate driving structural innovation, quality steel manufacturing, premium housing developments, and digital transformation in Bangladesh.</p>
                 </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <a href="about.html">About Us</a>
-                    <a href="companies.html">Our Companies</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                <div class="footer-contact">
-                    <h4>Headquarters</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> Uttara, Dhaka, Bangladesh</p>
-                    <p><i class="fas fa-envelope"></i> info@bongshai.com</p>
-                    <p><i class="fas fa-globe"></i> bongshai.com</p>
-                    
-                    <div style="margin-top: 1rem;">
-                        <a href="https://www.facebook.com/bongshaigroup" target="_blank" style="color: var(--text-muted); font-size: 1.5rem; transition: var(--transition);" onmouseover="this.style.color='#38bdf8'" onmouseout="this.style.color='var(--text-muted)'" data-mcp-action="visit-facebook">
-                            <i class="fab fa-facebook"></i>
-                        </a>
+                <div>
+                    <h4>Subsidiaries</h4>
+                    <div class="footer-links">
+                        <a href="https://bongshaiengineering.com" target="_blank" rel="noopener">Bongshai Engineering</a>
+                        <a href="https://bongshaihousing.com" target="_blank" rel="noopener">Bongshai Housing</a>
+                        <a href="https://bongshaisteel.com" target="_blank" rel="noopener">Bongshai Steel</a>
+                        <a href="https://bongshaixpress.com" target="_blank" rel="noopener">Bongshai Express</a>
+                        <a href="https://bongshaifoundation.org" target="_blank" rel="noopener">Bongshai Foundation</a>
                     </div>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <div class="footer-links">
+                        <a href="about.html">About Bongshai</a>
+                        <a href="companies.html">Group Companies</a>
+                        <a href="contact.html">Executive Contact</a>
+                        <a href="llms.txt">Agent LLMs Index</a>
+                        <a href="obots.txt">Robots Policy</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Headquarters</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 0.75rem;">
+                        Sector 3, Uttara Model Town,<br>Dhaka-1230, Bangladesh
+                    </p>
+                    <p style="font-size: 0.9rem; color: var(--text-light);">
+                        <i class="fas fa-envelope highlight"></i> info@bongshai.com
+                    </p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <script>document.write(new Date().getFullYear())</script> Bongshai Group. All rights reserved.</p>
-                <div class="agent-links">
-                    <a href="/llms.txt">llms.txt</a> | <a href="/obots.txt">obots.txt</a>
+                <p>&copy; 2026 Bongshai Group. All Rights Reserved. ISO 9001:2015 Certified.</p>
+                <div>
+                    <a href="llms.txt" style="margin-right: 1.5rem;">llms.txt</a>
+                    <a href="obots.txt">obots.txt</a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Vanta and VanillaTilt removed for performance -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
-<div id='fps-meter' style='position:fixed;top:10px;right:10px;background:black;color:lime;padding:5px;z-index:10000;font-family:monospace;font-size:16px;'>FPS: 60</div>
-<script>
-    let frameCount = 0;
-    let lastTime = performance.now();
-    const fpsMeter = document.getElementById('fps-meter');
-    function updateFPS() {
-        frameCount++;
-        const now = performance.now();
-        if (now - lastTime >= 1000) {
-            fpsMeter.innerText = 'FPS: ' + frameCount;
-            frameCount = 0;
-            lastTime = now;
-        }
-        requestAnimationFrame(updateFPS);
-    }
-    requestAnimationFrame(updateFPS);
-</script>
