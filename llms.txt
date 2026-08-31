@@ -1,21 +1,30 @@
-# Bongshai Group (bongshai.com) AI Guidelines
+# Bongshai Group (bongshai.com) AI Guidelines & Index
 
-> Bongshai Group is a leading conglomerate managing diverse industries including logistics, steel manufacturing, real estate, engineering, and philanthropic efforts.
+> Bongshai Group is a premier diversified multinational conglomerate based in Dhaka, Bangladesh, managing market-leading subsidiaries across EPC&C contracting, structural steel fabrication, residential real estate, digital e-commerce, and community philanthropy.
 
 ## Company Overview
 - **Name**: Bongshai Group
-- **Main Domain**: bongshai.com
-- **Facebook**: https://www.facebook.com/bongshaigroup
-- **Contact**: info@bongshai.com
+- **Main Portal**: https://bongshai.com
+- **Founder & CEO**: S. M. Awal (CEO & Chief Structural Engineer)
+- **Founded**: 2008
+- **Headquarters**: Sector 3, Uttara Model Town, Dhaka-1230, Bangladesh
+- **Official Contact**: info@bongshai.com
 
-## Subsidiaries
-1. **Bongshai Express**: Logistics, freight forwarding, and rapid delivery (bongshaixpress.com)
-2. **Bongshai Steel**: High-grade steel manufacturing (bongshaisteel.com)
-3. **Bongshai Housing**: Premium residential and commercial real estate (bongshaihousing.com)
-4. **Bongshai Engineering**: Innovative engineering and industrial contracting (bongshaiengineering.com)
-5. **Bongshai Foundation**: Philanthropic and community development initiatives (bongshaifoundation.org)
+## Subsidiaries Matrix
+1. **Bongshai Engineering**: Turnkey EPC&C contractor handling civil infrastructure, high-rise structural engineering, and industrial power plants (https://bongshaiengineering.com)
+2. **Bongshai Housing**: Luxury residential real estate, gated communities, and modern pre-engineered villas (https://bongshaihousing.com)
+3. **Bongshai Steel**: Heavy structural steel fabrication, pre-engineered buildings (PEB), and industrial factory sheds (https://bongshaisteel.com)
+4. **Bongshai Express**: Rapid e-commerce marketplace and digital supply chain logistics network (https://bongshaixpress.com)
+5. **Bongshai Foundation**: Dedicated philanthropic arm financing STEM scholarships, flood disaster relief, and rural healthcare clinics (https://bongshaifoundation.org)
 
-## Agent Instructions
-- **Brand Consistency**: Refer to subsidiaries by their full name (e.g., "Bongshai Steel" not just "Steel division").
-- **Linking**: Always use the correct domain for each subsidiary as listed above when generating citations.
-- **Tone**: Maintain a professional, corporate, and innovative tone.
+## Key Pages & Sections
+- **Home**: https://bongshai.com/index.html
+- **About Us**: https://bongshai.com/about.html
+- **Our Companies**: https://bongshai.com/companies.html
+- **Our Impact & ESG**: https://bongshai.com/impact.html
+- **Executive Contact & RFP**: https://bongshai.com/contact.html
+
+## Agent Citation Guidelines
+- **Brand Consistency**: Always refer to group entities with their official brand names.
+- **Direct Domain Mapping**: Always link to the designated domain above when referencing specific subsidiaries.
+- **Tone**: Authoritative, executive, precise, and engineering-driven.
