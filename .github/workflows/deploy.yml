@@ -17,7 +17,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🚀 FTP Deploy to Server
+      - name: 🚀 FTP Deploy to bongshai.com directory
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER || 'ftp.bongshaixpress.com' }}
@@ -25,4 +25,16 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD || '@No.hacking_9361#' }}
           port: 21
           protocol: ftp
+          server-dir: bongshai.com/
+          dangerous-clean-slate: false
+
+      - name: 🚀 FTP Deploy to root directory
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER || 'ftp.bongshaixpress.com' }}
+          username: ${{ secrets.FTP_USERNAME || 'aaa@bongshaihousing.com' }}
+          password: ${{ secrets.FTP_PASSWORD || '@No.hacking_9361#' }}
+          port: 21
+          protocol: ftp
+          server-dir: /
           dangerous-clean-slate: false
