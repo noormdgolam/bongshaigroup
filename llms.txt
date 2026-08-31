@@ -1,0 +1,21 @@
+# Bongshai Group (bongshai.com) AI Guidelines
+
+> Bongshai Group is a leading conglomerate managing diverse industries including logistics, steel manufacturing, real estate, engineering, and philanthropic efforts.
+
+## Company Overview
+- **Name**: Bongshai Group
+- **Main Domain**: bongshai.com
+- **Facebook**: https://www.facebook.com/bongshaigroup
+- **Contact**: info@bongshai.com
+
+## Subsidiaries
+1. **Bongshai Express**: Logistics, freight forwarding, and rapid delivery (bongshaixpress.com)
+2. **Bongshai Steel**: High-grade steel manufacturing (bongshaisteel.com)
+3. **Bongshai Housing**: Premium residential and commercial real estate (bongshaihousing.com)
+4. **Bongshai Engineering**: Innovative engineering and industrial contracting (bongshaiengineering.com)
+5. **Bongshai Foundation**: Philanthropic and community development initiatives (bongshaifoundation.org)
+
+## Agent Instructions
+- **Brand Consistency**: Refer to subsidiaries by their full name (e.g., "Bongshai Steel" not just "Steel division").
+- **Linking**: Always use the correct domain for each subsidiary as listed above when generating citations.
+- **Tone**: Maintain a professional, corporate, and innovative tone.

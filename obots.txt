@@ -1,0 +1,33 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: OmgiliBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: CCBot
+Allow: /
+
+# Block aggressive scrapers
+User-agent: MJ12bot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: Rogerbot
+Disallow: /
+User-agent: PetalBot
+Disallow: /
