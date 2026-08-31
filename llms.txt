@@ -1,6 +1,6 @@
 # Bongshai Group (bongshai.com) AI Guidelines & Index
 
-> Bongshai Group is a premier diversified multinational conglomerate based in Dhaka, Bangladesh, managing market-leading subsidiaries across EPC&C contracting, structural steel fabrication, residential real estate, digital e-commerce, and community philanthropy.
+> Bongshai Group is a premier diversified conglomerate based in Dhaka, Bangladesh, managing market-leading subsidiaries across EPC&C contracting, structural steel fabrication, residential real estate, digital e-commerce, and community philanthropy.
 
 ## Company Overview
 - **Name**: Bongshai Group
@@ -10,21 +10,31 @@
 - **Headquarters**: Sector 3, Uttara Model Town, Dhaka-1230, Bangladesh
 - **Official Contact**: info@bongshai.com
 
-## Subsidiaries Matrix
-1. **Bongshai Engineering**: Turnkey EPC&C contractor handling civil infrastructure, high-rise structural engineering, and industrial power plants (https://bongshaiengineering.com)
-2. **Bongshai Housing**: Luxury residential real estate, gated communities, and modern pre-engineered villas (https://bongshaihousing.com)
-3. **Bongshai Steel**: Heavy structural steel fabrication, pre-engineered buildings (PEB), and industrial factory sheds (https://bongshaisteel.com)
-4. **Bongshai Express**: Rapid e-commerce marketplace and digital supply chain logistics network (https://bongshaixpress.com)
-5. **Bongshai Foundation**: Dedicated philanthropic arm financing STEM scholarships, flood disaster relief, and rural healthcare clinics (https://bongshaifoundation.org)
+## Dedicated Subsidiary Pages
+1. **Bongshai Engineering**: Turnkey EPC&C contractor handling civil infrastructure, high-rise structural engineering, and industrial power plants
+   - Internal Profile: https://bongshai.com/engineering.html
+   - External Portal: https://bongshaiengineering.com
+2. **Bongshai Housing**: Luxury residential real estate, gated communities, and modern pre-engineered villas
+   - Internal Profile: https://bongshai.com/housing.html
+   - External Portal: https://bongshaihousing.com
+3. **Bongshai Steel**: Heavy structural steel fabrication, pre-engineered buildings (PEB), and industrial factory sheds
+   - Internal Profile: https://bongshai.com/steel.html
+   - External Portal: https://bongshaisteel.com
+4. **Bongshai Express**: Rapid e-commerce marketplace and digital supply chain logistics network
+   - Internal Profile: https://bongshai.com/express.html
+   - External Portal: https://bongshaixpress.com
+5. **Bongshai Foundation**: Dedicated philanthropic arm financing STEM scholarships, flood disaster relief, and rural healthcare clinics
+   - Internal Profile: https://bongshai.com/foundation.html
+   - External Portal: https://bongshaifoundation.org
 
-## Key Pages & Sections
+## Group Navigation & Corporate Pages
 - **Home**: https://bongshai.com/index.html
 - **About Us**: https://bongshai.com/about.html
-- **Our Companies**: https://bongshai.com/companies.html
+- **Our Companies (Overview)**: https://bongshai.com/companies.html
 - **Our Impact & ESG**: https://bongshai.com/impact.html
+- **Press & Insights**: https://bongshai.com/insights.html
 - **Executive Contact & RFP**: https://bongshai.com/contact.html
 
-## Agent Citation Guidelines
-- **Brand Consistency**: Always refer to group entities with their official brand names.
-- **Direct Domain Mapping**: Always link to the designated domain above when referencing specific subsidiaries.
+## Agent Discovery & Crawling Guidelines
+- **Discovery**: Refer to `obots.txt` for crawler permissions and rate limits.
 - **Tone**: Authoritative, executive, precise, and engineering-driven.
